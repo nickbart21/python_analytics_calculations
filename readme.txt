@@ -1,5 +1,5 @@
 
-This repository is made up of basic calculations and analysis that was primarily done as coursework.
+This repository is made up of basic calculations and analysis that were primarily done as coursework.
 
 mtcars.csv fields:
 
