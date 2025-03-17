@@ -1,24 +1,24 @@
 import pandas as pd
 
-def stat_analysis(df):
-    sDev = df.std()
+def stat_analysis(data):
+    sDev = data.std()
     print("\nThe standard deviations are:\n", sDev)
 
-    describe = df.describe()
+    describe = data.describe()
     print("\nThe descriptive results are:\n", describe)
 
-    kurt = df.kurt()
+    kurt = data.kurt()
     print("\nThe kurt results are:\n", kurt)
 
-    skew = df.skew()
+    skew = data.skew()
     print("\nThe skew results are:\n", skew)
 
-    quantile = df.quantile()
+    quantile = data.quantile()
     print("\nThe quantile results are:\n", quantile)
 
 
-def mpg_gears(df):
-    mpgGears = df[['mpg', 'gear']]
+def mpg_gears(data):
+    mpgGears = data[['mpg', 'gear']]
     describe = mpgGears.describe()
     print("\nThe descriptive stats for mpg and gear are:\n", describe)
 
@@ -109,18 +109,18 @@ def mpg_carb(df):
     sDev8 = carb8['mpg'].std()
     print("\nThe standard deviations of MPG for vehicles with 8 Carb are:\n", sDev8)
 
-def mpg_corr(df):
-    corr = df.corr()
+def mpg_corr(data):
+    corr = data.corr()
 
     print(corr)
     print("The wt has the most impact on the mpg with a correlation value of -.867659")
 
 
-
 df = pd.read_csv(r'mtcars.csv')
 print(df)
+df_nums_only = df.drop('model', axis=1)
 
-stat_analysis(df)
+stat_analysis(df_nums_only)
 mpg_gears(df)
 mpg_carb(df)
-mpg_corr(df)
+mpg_corr(df_nums_only)
