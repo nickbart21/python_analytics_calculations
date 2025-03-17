@@ -1,11 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r'mtcars.csv')
-
-print(df)
-
-
-def StatAnalysis(df):
+def stat_analysis(df):
     sDev = df.std()
     print("\nThe standard deviations are:\n", sDev)
 
@@ -22,10 +17,7 @@ def StatAnalysis(df):
     print("\nThe quantile results are:\n", quantile)
 
 
-StatAnalysis(df)
-
-
-def MpgGears(df):
+def mpg_gears(df):
     mpgGears = df[['mpg', 'gear']]
     describe = mpgGears.describe()
     print("\nThe descriptive stats for mpg and gear are:\n", describe)
@@ -59,10 +51,7 @@ def MpgGears(df):
     print("\nThe standard deviations of MPG for vehicles with 5 Gears are:\n", sDev5)
 
 
-MpgGears(df)
-
-
-def MpgCarb(df):
+def mpg_carb(df):
     mpgCarb = df[['mpg', 'carb']]
 
     describe = mpgCarb.describe()
@@ -120,14 +109,18 @@ def MpgCarb(df):
     sDev8 = carb8['mpg'].std()
     print("\nThe standard deviations of MPG for vehicles with 8 Carb are:\n", sDev8)
 
-MpgCarb(df)
-
-
-def MpgCorr(df):
+def mpg_corr(df):
     corr = df.corr()
 
     print(corr)
     print("The wt has the most impact on the mpg with a correlation value of -.867659")
 
 
-MpgCorr(df)
+
+df = pd.read_csv(r'mtcars.csv')
+print(df)
+
+stat_analysis(df)
+mpg_gears(df)
+mpg_carb(df)
+mpg_corr(df)
