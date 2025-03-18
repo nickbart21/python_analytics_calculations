@@ -1,5 +1,5 @@
 
-This repository is made up of basic calculations and analysis.
+This repository is made up of basic calculations and analysis. Each file is a standalone script.
 
 mtcars.csv fields:
 
