@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76d14978-2176-4743-a3ea-5886b3e47b2c" name="Changes" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/chart_analytics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_text_analysis1.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_text_analysis1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Python.basic_numpy_analytics1.executor": "Run",
     "Python.basic_numpy_analytics2.executor": "Run",
     "Python.car_df_analysis.executor": "Run",
+    "Python.chart_analytics.executor": "Run",
     "Python.diagonal_sum.executor": "Run",
     "Python.exponential_calculation.executor": "Run",
     "Python.math_calculations.executor": "Run",
@@ -63,7 +64,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nick/PycharmProjects/BasicPythonAnalytics"
+    "last_opened_file_path": "/Users/nick/PycharmProjects/BasicPythonAnalytics",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742234232142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1742342353205</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1742342353205</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
