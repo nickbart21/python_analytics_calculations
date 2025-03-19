@@ -5,38 +5,33 @@ import numpy as np
 
 df = pd.read_csv(r'mtcars.csv')
 
-#----------- Part 1 ------------
-
+# Histogram of fields
 fig1 = plt.figure(1)
 plt.hist(df.mpg, bins=5, density = 0, color = 'r', edgecolor = 'b')
 plt.xlabel('MPG')
 plt.ylabel('Number of Cars')
 plt.title('MPG Histogram')
 
-#----------- Part 2 ------------
-
+# Scatterplot of mpg vs hp
 fig2 = plt.figure()
 plt.scatter(df.mpg, df.hp, s = 5, c = 'b')
 plt.ylabel('HP')
 plt.xlabel('MPG')
 plt.title('MPG vs. HP')
 
-#----------- Part 3 ------------
-
+# Scattermatrix of selected fields
 dfscattermatrix = DataFrame(np.random.randn(100, 5), columns=['disp', 'hp', 'drat', 'wt', 'qsect'])
 plt.style.use('classic')
 pd.plotting.scatter_matrix(dfscattermatrix, s = 60, diagonal = 'kde')
 
-#----------- Part 4 ------------
-
+# Boxplots of selected fields
 dfboxplots = DataFrame(np.random.randn(100, 5), columns=['disp', 'hp', 'drat', 'wt', 'qsect'])
 dfboxplots_sub = dfboxplots.iloc[:, 0:5]
 dfboxplots_sub.plot.box(color = 'red', sym = 'r+')
 dfboxplots_sub.boxplot()
 
 
-#----------- Part 5 ------------
-
+# Individual scatter plots for all fields vs mpg
 plt.figure()
 plt.scatter(df.mpg, df.hp, s = 5, c = 'b')
 plt.ylabel('HP')
