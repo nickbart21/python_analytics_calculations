@@ -23,14 +23,14 @@ There are 10 predictors, all quantitative, and a binary dependent variable, indi
 The predictors are anthropometric data and parameters which can be gathered in routine blood analysis.
 Prediction models based on these predictors, if accurate, can potentially be used as a biomarker of breast cancer.
 
-Age	            Feature	    Integer	        Age		                                year
+Age	            Feature	    Integer	      Age		                                year
 BMI	            Feature	    Continuous		BodyMassIndex	                        kg/m2
-Glucose	        Feature	    Integer			Sugar in blood                          mg/dL
+Glucose	        Feature	    Integer			  Sugar in blood                        mg/dL
 Insulin	        Feature	    Continuous		Insulin         	                    µU/mL
-HOMA	        Feature	    Continuous		Homeostatic Model Assessment
-Leptin	        Feature	    Continuous		Hormone                        	        ng/mL
+HOMA	          Feature	    Continuous		Homeostatic Model Assessment
+Leptin	        Feature	    Continuous		Hormone                        	      ng/mL
 Adiponectin	    Feature	    Continuous		Hormone                     	        µU/mL
-Resistin	    Feature	    Continuous		Hormone                     	        ng/mL
-MCP.1	        Feature	    Continuous		Protein                     	        pg/dL
+Resistin	      Feature	    Continuous		Hormone                     	        ng/mL
+MCP.1	          Feature	    Continuous		Protein                     	        pg/dL
 Classification	Target	    Integer		    1=Healthy controls, 2=Cancer Patients
 
