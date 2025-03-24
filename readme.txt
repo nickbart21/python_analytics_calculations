@@ -33,4 +33,19 @@ Adiponectin	    Feature	    Continuous		Hormone                     	        µU
 Resistin	      Feature	    Continuous		Hormone                     	        ng/mL
 MCP.1	          Feature	    Continuous		Protein                     	        pg/dL
 Classification	Target	    Integer		    1=Healthy controls, 2=Cancer Patients
+----------------------------------------------------------------------------------------
+california_housing.csv
+
+
+
+longitude, feature, float
+latitude, feature, float
+housing_median_age, feature, float,
+total_rooms, feature, float
+total_bedrooms, feature, float
+population, feature, float
+households, feature, float
+median_income, feature, float
+median_house_value, target, float
+ocean_proximity, feature, string
 
