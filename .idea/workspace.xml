@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76d14978-2176-4743-a3ea-5886b3e47b2c" name="Changes" comment="new commit">
-      <change beforePath="$PROJECT_DIR$/chart_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/chart_analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/california_housing.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_exploration_and_charts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/encoding_and_normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predictive_modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +27,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nickbart21"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nickbart21&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nickbart21/python_analytics_calculations.git",
-    "accountId": "fc4b3208-65b5-4356-b85d-96a51c18d92f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nickbart21/python_analytics_calculations.git&quot;,
+    &quot;accountId&quot;: &quot;fc4b3208-65b5-4356-b85d-96a51c18d92f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2uPJMUmc9CAODJ1HFXFohIq3vej" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,9 +60,13 @@
     "Python.car_df_analysis.executor": "Run",
     "Python.chart_analytics.executor": "Run",
     "Python.diagonal_sum.executor": "Run",
+    "Python.encoding_and_normalization.executor": "Run",
     "Python.exponential_calculation.executor": "Run",
     "Python.math_calculations.executor": "Run",
     "Python.new_file.executor": "Run",
+    "Python.normalizations.executor": "Run",
+    "Python.predictive_modeling.executor": "Debug",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -203,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742389178384</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new commit">
+      <option name="closed" value="true" />
+      <created>1742389412907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742389412907</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
