@@ -14,6 +14,8 @@ from sklearn.preprocessing import(
     StandardScaler,
     minmax_scale)
 
+## Modeled after https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#plot-all-scaling-minmax-scaler-section
+
 pd.set_option('display.max_columns', None)
 housing_df = pd.read_csv('california_housing.csv')
 #print(housing_df.info())
