@@ -188,6 +188,7 @@ def make_plot(item_idx):
 
     norm = plt.Normalize(y.min(), y.max())
     cmap1 = plt.get_cmap('plasma_r')
+    #This isn't scaled correctly
     mpl.colorbar.ColorbarBase(
         ax_colorbar,
         cmap=cmap1,
